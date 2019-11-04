@@ -1,0 +1,201 @@
+/* Set background to black */
+html {
+  background-color: black;
+}
+
+/* Centre logo and give black background */
+.heading-logo {
+  background-color: black;
+  text-align: center;
+}
+
+/* Set navbar background */
+.navbar {
+  background-color: black;
+}
+
+/* Centres position of navbar correctly with logo*/
+.navbar-nav {
+  padding-right: 55px;
+}
+
+/* Logo picture size */
+.logo-picture {
+  height: 25rem;
+  width: 60rem;
+}
+
+/* responsive logo picture */
+@media only screen and (max-width: 1000px) {
+  .logo-picture {
+    height: 15rem;
+    width: 30rem;
+  }
+}
+
+/* text link styling */
+.link-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0.5px 0.5px red;
+}
+
+/* text link hover */
+.link-text:hover {
+  opacity: 0.7
+}
+
+/* text link hover */
+.navbar-brand:hover {
+  opacity: 0.7
+}
+
+/* Welcome message styling */
+.welcome {
+  padding-top: 50px;
+  background-color: black;
+  text-align: center;
+  color: #d90404;
+  text-shadow: 0.5px 0.5px grey;
+}
+
+/* Welcome title position */
+.welcome-title {
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* video box center */
+.youtube {
+  padding-top: 50px;
+  text-align: center;
+  background-color: black;
+}
+
+/* youtube video frame */
+.video-frame {
+  height: 500px;
+  width: 600px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+/* responsive logo picture */
+@media only screen and (max-width: 1000px) {
+  .video-frame {
+    height: 380px;
+    width: 480px;
+  }
+}
+
+/* instagram embed style */
+.social-media {
+  text-align: center;
+  background-color: white;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+
+/* Center list */
+.list {
+  display: inline;
+}
+
+/* icon styling-discord*/
+.fab {
+  font-size: 20rem;
+  color: purple;
+  transition: 0.5s;
+  text-align: center;
+}
+
+/* icon styling-discord-hover animation*/
+.fab:hover {
+  color: blue;
+}
+
+/* Live subscriber div center and background black */
+.subscriber {
+  background-color: black;
+  text-align: center;
+}
+
+/* card background white to read subscriber number */
+.subscriber-count {
+  background-color: white;
+}
+
+/* merchandise picture position */
+.merchandise-picture {
+  text-align: center;
+  height: 40%;
+  width: 40%;
+}
+
+/* center div */
+.picture-div {
+  text-align: center;
+}
+
+/* title label styling for welcome page titles */
+.title-label {
+  font-weight: bold;
+  color: white;
+  text-shadow: 0.7px 0.7px red;
+  font-size: 20px;
+}
+
+/* title label styling for social and merch page titles */
+.title-label-social .title-label-merch{
+  font-weight: bold;
+  color: black;
+  text-shadow: 0.7px 0.7px red;
+  font-size: 20px;
+}
+
+/* responsive styling for titles */
+@media only screen and (min-width: 1000px) {
+  .title-label-merch {
+    font-weight: bold;
+    color: black;
+    text-shadow: 0.7px 0.7px red;
+    font-size: 40px;
+  }
+}
+
+/* Center align submit button */
+.button-submit {
+  text-align: center;
+}
+
+
+/* text label colour for subscriber count */
+.sub-count-title {
+  color: #d90404;
+}
+
+/* border to footer (no longer used but kept in-case client changes mind) */
+.hr-line {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* border styling */
+.hr-line-red {
+  border: 2px solid #d90404;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Footer styling */
+.page-footer {
+  background-color: black;
+}
+
+/* copyright footer */
+.footer-copyright {
+  color: white;
+}
